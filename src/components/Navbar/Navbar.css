@@ -1,0 +1,33 @@
+.app__navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 36px 10px 36px;
+    background: var(--color-greenbase);
+
+}
+.app__navbar img{
+    width: 239px;
+}
+.app__navbar-menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: var(--color-greenprimary);
+    padding: 15px 42px;
+    width: 329px;
+    border-radius: 15px;
+}
+.app__navbar-menu a{
+    color: white;
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+}
+.app__navbar__menu-line{
+    background: white;
+    height: 20px;
+    width: 2px;
+}

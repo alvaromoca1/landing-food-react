@@ -2,10 +2,8 @@ import React from 'react';
 
 import './Button.css';
 
-const Button = () => (
-  <div>
-    butonn
-  </div>
+const Button = ({title,type}) => (
+  <button className='app__btn' type={type}>{title}</button>
 );
 
 export default Button;

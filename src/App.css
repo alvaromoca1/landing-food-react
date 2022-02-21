@@ -22,3 +22,10 @@ a {
   color: unset;
   text-decoration: none;
 }
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-greenbase);
+  min-height: 100vh;
+}
